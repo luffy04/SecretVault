@@ -1,0 +1,23 @@
+{
+  "name": "clothing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child-process": "^1.0.2",
+    "csv-parser": "^2.3.3",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "json2csv": "^5.0.5",
+    "nodemon": "^2.0.5"
+  }
+}
